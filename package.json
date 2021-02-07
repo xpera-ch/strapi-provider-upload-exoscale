@@ -1,0 +1,38 @@
+{
+  "name": "strapi-provider-upload-exoscale",
+  "version": "1.0.0",
+  "description": "Exoscale (S3 compatible) upload provider for strapi",
+  "homepage": "https://strapi.io",
+  "keywords": [
+    "upload",
+    "s3",
+    "strapi",
+    "exoscale"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "aws-sdk": "^2.839.0"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": {
+    "name": "xpera GmbH",
+    "email": "info@xpera.ch",
+    "url": "https://xpera.ch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/xpera-ch/strapi-provider-upload-exoscale"
+  },
+  "bugs": {
+    "url": "https://github.com/xpera-ch/strapi-provider-upload-exoscale/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.19.0"
+  }
+}
