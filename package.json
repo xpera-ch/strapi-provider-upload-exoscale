@@ -10,7 +10,7 @@
     "exoscale"
   ],
   "directories": {
-    "lib": "./lib"
+    "lib": "lib"
   },
   "main": "./lib",
   "dependencies": {
@@ -19,14 +19,10 @@
   "strapi": {
     "isProvider": true
   },
-  "author": {
-    "name": "xpera GmbH",
-    "email": "info@xpera.ch",
-    "url": "https://xpera.ch"
-  },
+  "author": "xpera GmbH <info@xpera.ch> (https://xpera.ch)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/xpera-ch/strapi-provider-upload-exoscale"
+    "url": "git://github.com/xpera-ch/strapi-provider-upload-exoscale.git"
   },
   "bugs": {
     "url": "https://github.com/xpera-ch/strapi-provider-upload-exoscale/issues"
@@ -34,5 +30,8 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^7.19.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
