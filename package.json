@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-exoscale",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Exoscale (S3 compatible) upload provider for strapi",
   "homepage": "https://strapi.io",
   "keywords": [
@@ -10,7 +10,7 @@
     "exoscale"
   ],
   "directories": {
-    "lib": "lib"
+    "lib": "./lib"
   },
   "main": "./lib",
   "dependencies": {
