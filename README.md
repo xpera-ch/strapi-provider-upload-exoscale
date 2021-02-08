@@ -17,7 +17,7 @@ module.exports = ({ env }) => ({
     providerOptions: {
       accessKeyId: env("EXOSCALE_ACCESS_KEY_ID"),
       secretAccessKey: env("EXOSCALE_ACCESS_SECRET"),
-      endpoint: env("EXOSCALE_ENDPOINT"),
+      region: env("EXOSCALE_REGION"),
       params: {
         Bucket: env("EXOSCALE_BUCKETNAME"),
       },
@@ -28,3 +28,10 @@ module.exports = ({ env }) => ({
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+## Links
+
+- [Strapi website](http://strapi.io/)
+- [Strapi community on Slack](http://slack.strapi.io)
+- [Strapi news on Twitter](https://twitter.com/strapijs)
+- [Exoscale](https://www.exoscale.com/)
