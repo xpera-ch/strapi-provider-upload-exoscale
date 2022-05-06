@@ -1,6 +1,6 @@
 {
   "name": "strapi-provider-upload-exo",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Strapi v4 Exoscale (S3 compatible) upload provider",
   "homepage": "https://strapi.io",
   "keywords": [
@@ -10,7 +10,7 @@
     "exoscale"
   ],
   "directories": {
-    "lib": "./lib"
+    "lib": "lib"
   },
   "main": "./lib",
   "dependencies": {
@@ -25,7 +25,7 @@
   "author": "Ray Lenzin <hey@raylenzin.com> (https://raylenzin.com)",
   "repository": {
     "type": "git",
-    "url": "git://github.com/raylenzin/strapi-provider-upload-exo"
+    "url": "git://github.com/raylenzin/strapi-provider-upload-exo.git"
   },
   "bugs": {
     "url": "https://github.com/raylenzin/strapi-provider-upload-exo/issues"

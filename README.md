@@ -1,4 +1,4 @@
-# Strapi : Upload Provider for Exoscale
+# Strapi v4: Upload Provider for Exoscale
 
 Strapi v4 Upload Provider for Exoscale Storage (S3 compatible)
 
