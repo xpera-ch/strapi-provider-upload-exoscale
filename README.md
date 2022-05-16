@@ -7,9 +7,9 @@ _fork of: https://github.com/xpera-ch/strapi-provider-upload-exoscale_
 ## Installation
 
 ```bash
-npm install strapi-provider-upload-exoscale
+npm install strapi-provider-upload-exo
 # or
-yarn add strapi-provider-upload-exoscale
+yarn add strapi-provider-upload-exo
 
 ```
 
